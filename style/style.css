@@ -1242,15 +1242,27 @@ p {
 .social-icons {
     padding-bottom: 10px;
 }
+
 .social-link {
+    display: inline-flex; /* Pastikan ikon berada di tengah secara sempurna */
+    align-items: center;
+    justify-content: center;
     margin: 0 5px;
-    color: #d19a65;
+    color: white;
+    background-color: #d19a65;
+    border-radius: 50%; /* Membuat latar belakang menjadi bulat */
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.5em; /* Ukuran ikon */
+    width: 40px; /* Lebar lingkaran */
+    height: 40px; /* Tinggi lingkaran sama dengan lebar */
+    transition: transform 0.2s ease; /* Animasi saat hover */
 }
+
 .social-link:hover {
+    transform: scale(1.1); /* Membesarkan sedikit saat hover */
     color: #09163a;
 }
+
 
 
 
