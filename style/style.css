@@ -1198,25 +1198,6 @@ p {
     }
 }
 
-.content-akhir {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.credit {
-    position:absolute;
-    bottom: 0; 
-    left: 0; 
-    width: 100%; 
-    z-index: 1; 
-    text-align: center; 
-    padding-top: 20px;
-    font-size: 14px;
-    color: #333;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
-}
-
 .music-control {
     position: fixed;
     top: 20px;
@@ -1239,8 +1220,18 @@ p {
     background: #354968;
 }
 
-.social-icons {
-    padding-bottom: 5px;
+.credit {
+    display: flex; /* Mengaktifkan Flexbox */
+    flex-direction: column; /* Agar elemen diatur vertikal */
+    justify-content: center; /* Memusatkan secara vertikal */
+    align-items: center; /* Memusatkan secara horizontal */
+    text-align: center; /* Agar teks berada di tengah */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .social-link {
