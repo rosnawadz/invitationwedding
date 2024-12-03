@@ -1221,11 +1221,11 @@ p {
 }
 
 .credit {
-    display: flex; /* Mengaktifkan Flexbox */
-    flex-direction: column; /* Agar elemen diatur vertikal */
-    justify-content: center; /* Memusatkan secara vertikal */
-    align-items: center; /* Memusatkan secara horizontal */
-    text-align: center; /* Agar teks berada di tengah */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     position: absolute;
     bottom: 0;
@@ -1235,22 +1235,22 @@ p {
 }
 
 .social-link {
-    display: inline-flex; /* Pastikan ikon berada di tengah secara sempurna */
+    display: inline-flex; 
     align-items: center;
     justify-content: center;
     margin: 0 5px;
     color: white;
     background-color: #d19a65;
-    border-radius: 50%; /* Membuat latar belakang menjadi bulat */
+    border-radius: 50%; 
     text-decoration: none;
-    font-size: 1.5em; /* Ukuran ikon */
-    width: 40px; /* Lebar lingkaran */
-    height: 40px; /* Tinggi lingkaran sama dengan lebar */
-    transition: transform 0.2s ease; /* Animasi saat hover */
+    font-size: 1.5em; 
+    width: 40px; 
+    height: 40px; 
+    transition: transform 0.2s ease; 
 }
 
 .social-link:hover {
-    transform: scale(1.1); /* Membesarkan sedikit saat hover */
+    transform: scale(1.1); 
     color: #09163a;
 }
 
