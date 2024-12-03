@@ -405,7 +405,7 @@ p {
     align-items: center;
     text-align: center;
     padding: 20px;
-    z-index: 1; /* Pastikan overlay berada di atas dekorasi */
+    z-index: 1; 
 }
 
 .animated-text {
@@ -682,7 +682,7 @@ p {
     background-color: #354968;
     background-color: #354968;
     border-radius: 50%;
- } /* Warna ikon */
+ } 
 
 
 /* -------------------------------------------------------------
@@ -872,7 +872,7 @@ p {
 ---------------------------------------------------------------- */
 #sixth {
     position: relative;
-    background: url('/img/section6.jpg') no-repeat center center;
+    background: url('../img/section6.jpg') no-repeat center center;
     background-size: cover;
     padding: 20px;
     text-align: left;
@@ -891,9 +891,9 @@ p {
     align-items: flex-start;
     position: relative;
     border-radius: 15px; 
-    background: linear-gradient(  #8ba0b9, #b8c8d9, #8ba0b9); /* Gradien warna */
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5); /* Bayangan lebih halus */
-    padding: 20px; /* Menambahkan padding agar konten di dalam lebih rapi */
+    background: linear-gradient(  #8ba0b9, #b8c8d9, #8ba0b9); 
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
 }
 
 .timeline {
@@ -1024,7 +1024,7 @@ p {
 ---------------------------------------------------------------- */
 #seventh {
     position: relative;
-    background: url('/img/section7.jpg') no-repeat center center;
+    background: url('../img/section7.jpg') no-repeat center center;
     background-size: cover;
     padding: 50px 20px; 
     text-align: center; 
@@ -1202,7 +1202,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px; /* Jarak antar elemen */
+    gap: 10px; 
 }
 
 .credit {
@@ -1212,11 +1212,11 @@ p {
     width: 100%; 
     z-index: 1; 
     background: rgba(255, 255, 255, 0.736); 
-    text-align: center; /* Pusatkan teks */
+    text-align: center; 
     padding-top: 15px;
     font-size: 14px;
     color: #333;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Opsional: bayangan untuk estetika */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .music-control {

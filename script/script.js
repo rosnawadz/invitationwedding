@@ -185,14 +185,13 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        // Tambahkan pesan ke daftar
         messages.push({ name, message });
-        guestForm.reset(); // Kosongkan form
+        guestForm.reset(); 
         displayMessages();
     });
 
     function displayMessages() {
-        messagesList.innerHTML = ""; // Kosongkan tampilan sebelumnya
+        messagesList.innerHTML = ""; 
         messages.forEach((msg) => {
             const div = document.createElement("div");
             div.innerHTML = `<strong>${msg.name}:</strong> ${msg.message}`;
@@ -205,10 +204,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const music = document.getElementById('backgroundMusic');
     const musicButton = document.getElementById('musicButton');
 
-    // Play musik secara otomatis
     music.play();
 
-    // Mengontrol tombol
     let isPlaying = true;
 
     musicButton.addEventListener('click', () => {
