@@ -155,10 +155,11 @@ document.getElementById('copyButton').addEventListener('click', function () {
 
 document.getElementById('whatsappButton').addEventListener('click', function () {
     const accountDropdown = document.getElementById('accountDropdown');
-    const selectedAccount = accountDropdown.value;
+    const selectedOption = accountDropdown.options[accountDropdown.selectedIndex];
+    const selectedAccount = selectedOption.value;
+    const whatsappNumber = selectedOption.getAttribute('data-wa');
 
-    // Nomor WhatsApp tujuan
-    const whatsappNumber = '6281224019616';
+    // Pesan untuk WhatsApp
     const message = `Hi! Aku udah transfer hadiah ke rekening ${selectedAccount}. Selamat ya, bahagia selalu!`;
 
     // Buka WhatsApp dengan nomor tujuan dan pesan
