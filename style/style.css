@@ -62,7 +62,7 @@ body, section {
 .greetings {
     padding: 0;
     margin: 0;
-    background-image: url('/img/bg3.jpg');
+    background-image: url('../img/bg3.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
