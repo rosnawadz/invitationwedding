@@ -1202,7 +1202,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px; 
 }
 
 .credit {
@@ -1211,9 +1210,8 @@ p {
     left: 0; 
     width: 100%; 
     z-index: 1; 
-    background: rgba(255, 255, 255, 0.736); 
     text-align: center; 
-    padding-top: 15px;
+    padding-top: 20px;
     font-size: 14px;
     color: #333;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
@@ -1239,6 +1237,19 @@ p {
 
 #musicButton:hover {
     background: #354968;
+}
+
+.social-icons {
+    padding-bottom: 10px;
+}
+.social-link {
+    margin: 0 5px;
+    color: #d19a65;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.social-link:hover {
+    color: #09163a;
 }
 
 
