@@ -19,7 +19,7 @@ body, section {
     text-decoration: none;
     outline: none;
     cursor: pointer;
-    animation: blink-pulse 1.5s infinite ease-in-out; /* Animasi gabungan */
+    animation: blink-pulse 1.5s infinite ease-in-out; 
 }
 
 .btn-satu:hover {
@@ -37,7 +37,7 @@ body, section {
     outline: none;
     border: none;
     cursor: pointer;
-    animation: blink-pulse 1.5s infinite ease-in-out; /* Animasi gabungan */
+    animation: blink-pulse 1.5s infinite ease-in-out; 
 }
 
 .btn-kedua:hover {
@@ -104,26 +104,22 @@ p {
 @media (max-width: 768px) {
     .font-title h1 {
         font-size: 2rem;
-        /* Adjust h1 font size for smaller screens */
     }
 
     p {
         font-size: 1.2rem;
-        /* Adjust paragraph font size for smaller screens */
     }
 
     .greetings {
-        background-attachment: scroll; /* Hilangkan efek fixed untuk mobile */
-        background-position: top center; /* Pastikan gambar tetap berada di bagian atas */
+        background-attachment: scroll; 
+        background-position: top center; 
     }
 }
 
-/* Animasi umum untuk konten yang muncul */
 @keyframes slideInFromTop {
     0% {
         opacity: 0;
         transform: translateY(-50px);
-        /* Geser konten ke atas */
     }
 
     100% {
@@ -134,15 +130,12 @@ p {
 
 .greetings {
     animation: slideInFromTop 1.5s ease-out forwards;
-    /* Durasi 1.5 detik, dengan easing dan selesai otomatis */
 }
 
-/* Untuk setiap elemen individual yang ingin kita animasi, kita bisa menggunakan kombinasi dengan .font-title atau class lain yang relevan */
 .font-title,
 #countdown,
 .tamu {
     animation: slideInFromTop 1.5s ease-out forwards;
-    /* Sama dengan durasi dan animasi yang digunakan pada .container-fluid */
 }
 
 .expand-out {
@@ -167,7 +160,7 @@ p {
 .invite {
     padding: 0;
     margin: 0;
-    background-image: url('/img/section1-bg.jpg');
+    background-image: url('../img/section1-bg.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -359,7 +352,7 @@ p {
 
 .decor.top-left,
 .decor.top-right {
-    animation: popUp 1.5s ease-out forwards, floatTop 3s ease-in-out infinite; /* Animasi khusus elemen atas */
+    animation: popUp 1.5s ease-out forwards, floatTop 3s ease-in-out infinite; 
 }
 
 @keyframes floatTop {
